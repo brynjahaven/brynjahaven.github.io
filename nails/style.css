@@ -1,0 +1,29 @@
+*{margin: 0;}
+body{
+    background: #fcf4e9;
+}
+
+h1{
+    color: #2e6646;
+}
+
+p{
+    line-height: 40px;
+}
+
+a{
+    color:#52896a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    width: 700px;
+    padding: 15px 40px;
+    margin: 20px auto;
+    border: solid #efe8dd 2px;
+}
+
+.nailpics{
+    height: 300px;
+}
