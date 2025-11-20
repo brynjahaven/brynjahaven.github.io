@@ -1,14 +1,17 @@
-*{margin: 0;}
+.nailpics{
+    height: 300px;
+}
+*{
+    margin: 0;
+}
+
 body{
     background: #fcf4e9;
 }
 
 h1{
     color: #2e6646;
-}
-
-p{
-    line-height: 40px;
+    margin-bottom: 10px;
 }
 
 a{
@@ -17,11 +20,26 @@ a{
     text-decoration: none;
 }
 
+p{
+    margin-bottom: 7px;
+}
+
 .container{
-    width: 700px;
+    width: 70%;
+    max-width: 700px;
     padding: 15px 40px;
     margin: 20px auto;
-    border: solid #efe8dd 2px;
+    border: solid rgba(174, 103, 33, 0.121) 2px;
+}
+
+.nailbox{
+    padding: 15px 120px;
+    margin: 10px 0;
+    border: 
+}
+
+.nailbox:hover{
+    border: solid rgba(174, 103, 33, 0.121) 2px;
 }
 
 .nailpics{

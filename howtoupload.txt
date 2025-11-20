@@ -1,0 +1,12 @@
+Open Terminal (Ctrl + `)
+
+Then write:
+
+git add .
+git commit -m "describe what you changed"
+git push
+
+You're done! Takes a minute or two to update usually.
+
+the "." just means selected evvertyhing i changed 
+-m stands for message
