@@ -3,7 +3,7 @@ Open Terminal (Ctrl + `)
 Then write:
 
 git add .
-git commit -m "describe what you changed"
+git commit -m "update"
 git push
 
 You're done! Takes a minute or two to update usually.

@@ -107,3 +107,8 @@ a:hover {
         height: 25px;
     }
 }
+
+.update {
+    color: var(--highlight);
+    font-size: 10pt;
+}

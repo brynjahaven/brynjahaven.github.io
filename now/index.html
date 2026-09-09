@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Brynja</title>
+    <link rel="stylesheet" href="/global.css?v=3">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Now</h1>
+        <img src="/media/welcome.png" alt="poorly drawn self portrait" height="200px">
+        <p>These days I'm...</p>
+        <p></p>
+            <p class="update">Page last modified: <span id="last-updated"></span></p>
+    </div>
+</body>
+<script>
+    const date = new Date(document.lastModified);
+    
+    // Format as "Month DD, YYYY" (e.g., September 8, 2026)
+    const formattedDate = date.toLocaleDateString('en-US', {
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric'
+    });
+    
+    document.getElementById("last-updated").textContent = formattedDate;
+</script>
+</html>
