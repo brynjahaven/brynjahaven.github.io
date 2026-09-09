@@ -2,7 +2,7 @@
     --highlight:#53804f;
 }
 
-* {
+*{
     margin: 0;
     box-sizing: border-box;
 }
@@ -21,7 +21,6 @@
 }
 
 body {
-    background: #fcf4e9;
     background-image: url('/media/pine_lake.jpg');
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
